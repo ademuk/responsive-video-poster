@@ -5,15 +5,15 @@ Add responsive posters to HTML5 Videos
 NOTE: Currently only supoports one dimension
 
 ##Setup
-### 1. Include script (before end of closing body tag)
+#### 1. Include script (in the head or just before the end of the closing body tag)
 ```html
 <script src="responsive-video-poster.js"></script>
 ```
-### 2. Initialisation
+#### 2. Initialisation (just before the end of the closing body tag, or on document ready)
 ```js
 ResponsiveVideoPoster.init();
 ```
-or Explicit:
+or explicit:
 ```js
 ResponsiveVideoPoster.init(document.getElementsByClassName('video1'));
 ```
